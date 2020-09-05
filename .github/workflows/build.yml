@@ -21,3 +21,9 @@ jobs:
         registry: docker.io
         repository: 3r1co/cd
         tag_with_sha: true
+        
+    - name: Run SonarCloud
+      uses: sonarcloud/analyse
+      with:
+        projectKey: SamuelDiguet_ssc
+        organization: samueldiguet
