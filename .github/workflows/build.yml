@@ -23,7 +23,7 @@ jobs:
         tag_with_sha: true
         
     - name: Run SonarCloud
-      uses: sonarcloud/analyse
+      uses: /sonarsource/sonarcloud-github-action@master
       with:
         projectKey: SamuelDiguet_ssc
         organization: samueldiguet
